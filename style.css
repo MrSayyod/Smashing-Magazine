@@ -4,7 +4,7 @@ html {
     box-sizing: border-box;
 }
 header {
-    background-color: hsl(0,25%,55%);
+    background-color: #d33a2c;
 }
 nav {
     display: flex;
@@ -66,6 +66,64 @@ nav {
     border-radius: 5px;
     padding: 10px 20px;
 }
+.container {
+  position: relative;
+  background-color: #d33a2c;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+}
+.latest {
+  position: absolute;
+  top: 20px;
+  left: 406px;
+  width: 480px;
+  text-align: center;
+}
+.latest p {
+  background-color: white;
+  padding: 8px;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 23px;
+  font-weight: 700;
+}
+.serious-red {
+  position: absolute;
+  width: 235px;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  color: white;
+}
+.serious-red p {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin-left: 10px;
+}
+svg {
+  width: 61px;
+  height: 61px;
+  fill: red;
+  background-color: white;
+}
+.vitaly {
+  background-color: #bc3428;
+  padding-top: 140px;
+}
+.leonardo {
+  background-color: #c7372a;
+  padding-top: 140px;
+}
+.drew {
+  background-color: #b13125;
+}
+.barry {
+  background-color: #bc3428;
+}
 * {
     border: 1px solid green;
+}
+.img-name {
+  display: flex;
 }
