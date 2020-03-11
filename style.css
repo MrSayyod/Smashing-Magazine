@@ -3,7 +3,69 @@ html {
     width: 100%;
     box-sizing: border-box;
 }
-
+header {
+    background-color: hsl(0,25%,55%);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlogo {
+    margin-top: 5px;
+}
+.smash {
+    height: 76px;
+    width: 210px;
+}
+.navicons {
+    height: 49px;
+    width: 38px;
+}
+.searchicon {
+    height: 17px;
+    width: 17px;
+}
+.navdiv {
+    text-align: center;
+}
+.navdiv a, .navsearch a {
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.navdiv a:hover {
+    color: black;
+}
+.navdiv a h1 {
+    font-size: 16px;
+    margin: 5px;
+}
+.navdiv a h4 {
+    font-size: 12px;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+.adiv {
+    margin: 0;
+    padding: 0;
+}
+.navsearch {
+    position: relative;
+    right: 30px;
+}
+.navsearch a {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
 * {
     border: 1px solid green;
 }
