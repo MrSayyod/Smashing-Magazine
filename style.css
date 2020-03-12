@@ -7,6 +7,7 @@ body {
   margin: 0;
 }
 header {
+    padding-top: 20px;
     background-color: #d33a2c;
 }
 nav {
@@ -154,6 +155,7 @@ svg {
     font-weight: 700;
 }
 .persons {
+    margin-right: 15px;
     height: 80px;
     width: 75px;
     border: 5px solid white;
@@ -467,7 +469,7 @@ svg {
   background-color: #f6f3f2;
 }
 .grid2-art {
-  margin: 10px 10px 10px 40px;
+  margin: 10px 30px 10px 40px;
   padding-top: 10px;
 }
 .see-all2 {
@@ -641,13 +643,13 @@ footer  ul {
 }
 .transformer {
     transform: rotate(-11deg);
-    box-shadow: 10px 10px 10px 1px grey;
+    box-shadow: 10px 20px 10px -15px black;
 }
 .transformer:hover {
     transform: rotate(0deg);
     box-shadow: none;
 }
-.latest-posts div:hover {
+.latest-posts div:hover, .grid2-art:hover {
     transform: scale(1.1);
 }
 /* * {
