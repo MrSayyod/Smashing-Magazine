@@ -10,6 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 15px;
 }
 .navlogo {
     margin-top: 5px;
@@ -66,17 +67,23 @@ nav {
     border-radius: 5px;
     padding: 10px 20px;
 }
+/* main {
+    height: 800px;
+} */
 .container {
   position: relative;
   background-color: #d33a2c;
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr;
+  padding-top: 15px;
+  height: 1000px;
+  width: 100%;
 }
 .latest {
   position: absolute;
-  top: 20px;
-  left: 406px;
-  width: 480px;
+  top: 3%;
+  left: 32%;
+  width: 35%;
   text-align: center;
 }
 .latest p {
@@ -84,7 +91,7 @@ nav {
   padding: 8px;
   width: fit-content;
   margin: 0 auto;
-  font-size: 23px;
+  font-size: 40px;
   font-weight: 700;
 }
 .serious-red {
@@ -117,13 +124,45 @@ svg {
 }
 .drew {
   background-color: #b13125;
+  /* height: 300px; */
 }
 .barry {
   background-color: #bc3428;
-}
-* {
-    border: 1px solid green;
+  /* height: 300px; */
 }
 .img-name {
-  display: flex;
+    margin-top: 45px;
+}
+.authors {
+    padding-left: 35px;
+}
+.img-name, .authors ul {
+    display: flex;
+    list-style-type: none;
+}
+.img-name p, .authors p, .authors li {
+    color: white;
+}
+.img-name p {
+    font-size: 20px !important; 
+    font-weight: 700;
+}
+.authors p {
+    font-size: 45px;
+    font-weight: 700;
+}
+.commentp {
+    font-size: 16px !important;
+    font-weight: 700;
+}
+.persons {
+    height: 80px;
+    width: 75px;
+}
+.authors li {
+    margin: auto 20px;
+}
+
+* {
+    border: 1px solid green;
 }
