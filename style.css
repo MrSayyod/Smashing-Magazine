@@ -156,6 +156,8 @@ svg {
 .persons {
     height: 80px;
     width: 75px;
+    border: 5px solid white;
+    border-radius: 5px;
 }
 .authors li {
     margin: auto 20px;
@@ -169,6 +171,7 @@ svg {
   width: 100%;
   grid-gap: 20px;
   background-color: #f6f3f2;
+  margin-top: 20px;
 }
 .latest-posts div {
   padding: 0 30px;
@@ -323,6 +326,7 @@ svg {
 }
 .photo-vas {
     align-self: flex-end;
+    margin-right: 20px;
 }
 .vasilis div img {
     border: 5px solid #d33a2c;
@@ -354,7 +358,7 @@ svg {
     display: grid;
     grid-template: repeat(4, 1fr) / 1fr 1fr;
     grid-gap: 10px;
-    margin: 0 30px;
+    margin: 100px 30px 0 30px;
 }
 .grid-part div {
     display: flex;
@@ -550,8 +554,8 @@ svg {
   text-decoration: none;
 }
 .email h3 {
-  margin: 10px 15px 10px 15;
-  padding: 0 20px 0 20px;
+  align-self: center;
+  padding: 0 20px;
   border-left: 1px solid #ddd;
 }
 .slashing-news > h6 {
@@ -576,13 +580,75 @@ footer h4 {
   font-size: 15px;
   color: white;
   padding-top: 50px;
+  margin-bottom: 35px;
 }
-footer ul {
-  list-style-image: url(https://d33wubrfki0l68.cloudfront.net/5242cdc0f8a0d710a02b6dcdd43ef5002bf5ae89/77199/images/bullet.svg);
+footer  ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto 40px auto;
 }
-footer ul li {
+.topics {
+    margin: 15px 0 5px 0;
+}
+.topics a {
   font-size: 24px;
   color: white;
+  text-decoration: none;
+}
+.topics a::before {
+    content: "•";
+    color: #811d15;
+}
+.topics a:hover {
+    color: #390c09;
+}
+.last-part {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.last-part p, a {
+    color: white;
+    padding: 0;
+    margin: 5px;
+    font-size: 16px;
+}
+.last-part p:first-child {
+    font-size: 15px;
+}
+.last-part ul li {
+    margin: 0 15px 15px 15px;
+}
+.bird, .cat {
+    position: absolute;
+    top: 20%;
+    height: 12em;
+    width: 14em;
+}
+.bird {
+    left: -28%;
+}
+.cat {
+    right: -35%;
+}
+.transformer {
+    transform: rotate(-11deg);
+    box-shadow: 10px 10px 10px 1px grey;
+}
+.transformer:hover {
+    transform: rotate(0deg);
+    box-shadow: none;
+}
+.latest-posts div:hover {
+    transform: scale(1.1);
 }
 /* * {
     border: 1px solid green;
