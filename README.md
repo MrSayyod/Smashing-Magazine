@@ -25,11 +25,11 @@ Email: ssayyod@gmail.com
 Github: @MrSayyod
 LinkedIn: [Sayyod Saidov](https://www.linkedin.com/in/sayyod-saidov-507b0818b)
 
-:man_technologist: Murilo Roque
+:man_technologist: Murilo Roque Paiva da Silva
 
-Email: ssayyod@gmail.com
-Github: @MrSayyod
-LinkedIn: [Murilo Roque](https://www.linkedin.com/in/sayyod-saidov-507b0818b)
+Email: muriloengqui@gmail.com
+Github: @muriloroque
+LinkedIn: [Murilo Roque](https://www.linkedin.com/in/murilo-roque-b1268741/)
 
 # Contributing
 :handshake: Contributions, issues and feature requests are welcome!
