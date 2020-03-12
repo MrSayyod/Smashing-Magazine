@@ -281,7 +281,7 @@ svg {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 760px;
+    width: 740px;
 }
 .ethical div h5 {
     font-size: 16px;
@@ -289,10 +289,11 @@ svg {
     color: white;
     margin-bottom: 20px;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .ethical div h1 a {
     color: white;
-    font-size: 36px;
+    font-size: 54px;
     font-weight: 700;
     text-decoration: none;
     border-bottom: 1px solid gray;
@@ -304,17 +305,158 @@ svg {
     padding-top: 0;
     margin-top: -19px;
     color: #182f23;
-    font-size: 32px;
+    font-size: 48px;
 }
 .ethical div p {
     margin-top: 0;
-    font-size: 16px;
+    font-size: 24px;
     text-align: center;
-    line-height: 20px;
+    line-height: 35px;
 }
 .ethical div img {
-    width: 450px;
+    width: 800px;
 }
-/* * {
+.vasilis {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 30px 10px 30px;
+}
+.photo-vas {
+    align-self: flex-end;
+}
+.vasilis div img {
+    border: 5px solid #d33a2c;
+    border-radius: 10px;
+    height: 286px;
+    width: 286px;
+}
+.infoweek {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 20px 10px 30px;
+}
+.perofweek h4 {
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+}
+.van p {
+    color: #333;
+    font-size: 18px;
+    line-height: 33px;
+}
+.van p a {
+    color: #006fc6;
+}
+.grid-part {
+    display: grid;
+    grid-template: repeat(4, 1fr) / 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 30px;
+}
+.grid-part div {
+    display: flex;
+}
+.grid-part > a {
+    grid-column: 1/-1;
+    justify-self: center;
+    align-self: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    border-bottom: 3px solid #d33a2c;
+}
+.grid-part > a:hover {
+color: #d33a2c;
+}
+.img-part a img {
+    border: 3px solid #d33a2c;
+    border-radius: 5px;
+}
+.column-part {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.column-part h3 {
+    margin: 5px 0 0 0;
+    /* padding: 0; */
+}
+.column-part h3, .column-part h3 a {
+    color: #666;
+    font-size: 20px;
+}
+.column-part h1 {
+    padding: 10px 10px 10px 0;
+}
+.column-part h1 a {
+    font-size: 32px;
+    color: #333;
+    text-decoration: none;
+}
+.column-part h1 a:hover {
+    color: #d33a2c;
+}
+.column-part p {
+    margin: 0;
+    line-height: 22px;
+    font-size: 19px;
+    color: #333;
+}
+.time-span {
+    font-size: 17px;
+    color: #666;
+    text-transform: uppercase;
+}
+.column-part p a {
+    color: #006fc6;
+}
+.featured {
+    position: relative;
+    background-color: #d33a2c;
+}
+.featured div {
+    width: 57%;
+    margin: 40px 20px 40px 40px;
+    padding: 2%;
+}
+.featured div h3, .featured div h1 a, .featured div p {
+    color: white
+}
+.featured div h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.featured div h1 a{
+    font-size: 49px;
+    text-decoration: none;
+    border-bottom: 3px solid #e58980;
+}
+.featured div p {
+    font-size: 20px;
+    line-height: 33px;
+}
+.featured h4 {
+    width: fit-content;
+    background-color: white;
+    color: #267dcc;
+    font-size: 24px;
+    border-radius: 15px;
+    padding: 15px 25px;
+    font-weight: 700;
+}
+.featured img {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 72%;
+    top: -15%;
+}
+* {
     border: 1px solid green;
-} */
+}
