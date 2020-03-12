@@ -7,7 +7,7 @@ Project by Microverse (created with Murilo Roque)
 2. CSS
 
 # Live Demo 
-[Click For Live Page](https://rawcdn.githack.com/MrSayyod/Apple-website-webpage/cfed5494409055ba38c31100bd6d9279abca4e68/index.html)
+[Click For Live Page](https://rawcdn.githack.com/MrSayyod/Smashing-Magazine/660ade458f153856d4fb78d67e377af80d66b8c7/index.html)
 
 # Getting Started
 To get a local copy up and running follow these simple example steps.
