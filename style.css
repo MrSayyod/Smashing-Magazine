@@ -10,7 +10,7 @@ body {
 
 header {
   padding-top: 20px;
-  background-color: #d33a2c;
+  background-color: rgb(88, 87, 87);
 }
 
 nav {
@@ -21,7 +21,10 @@ nav {
 }
 
 .navlogo {
-  margin-top: 5px;
+  margin: 5px 0 0 15px;
+  width: 210px;
+  height: 76px;
+  background-color: dimgray;
 }
 
 .smash {
@@ -32,6 +35,8 @@ nav {
 .navicons {
   height: 49px;
   width: 38px;
+  background-color: gray;
+  margin: 0 auto;
 }
 
 .searchicon {
@@ -90,7 +95,7 @@ nav {
 
 .container {
   position: relative;
-  background-color: #d33a2c;
+  background-color: #635b5b;
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr;
   padding-top: 15px;
@@ -134,26 +139,26 @@ nav {
 svg {
   width: 61px;
   height: 61px;
-  fill: red;
+  fill: rgb(148, 141, 141);
   background-color: white;
 }
 
 .vitaly {
-  background-color: #bc3428;
+  background-color: #837b7a;
   padding-top: 140px;
 }
 
 .leonardo {
-  background-color: #c7372a;
+  background-color: #8b8a8a;
   padding-top: 140px;
 }
 
 .drew {
-  background-color: #b13125;
+  background-color: #69605f;
 }
 
 .barry {
-  background-color: #bc3428;
+  background-color: #837b7a;
 }
 
 .img-name {
@@ -209,7 +214,7 @@ svg {
 
 .latest-posts {
   display: grid;
-  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  grid-template: 1fr 1.4fr 1.4fr / 1fr 1fr 1fr;
   width: 100%;
   grid-gap: 20px;
   background-color: #f6f3f2;
@@ -248,21 +253,9 @@ svg {
 }
 
 .article-arrow {
-  color: #d33a2c;
+  color: #867f7e;
   font-size: 30px;
   margin: 80px 0 0 -30px;
-}
-
-.advert {
-  grid-column: 1 / -1;
-  text-align: center;
-  background-color: #d33a2c;
-  margin: 30px;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .advert div {
@@ -301,13 +294,13 @@ svg {
   line-height: 33.5px;
   color: white;
   text-decoration: none;
-  border-bottom: 2px solid #e58980;
+  border-bottom: 2px solid #7a6e6d;
 }
 
 .advert h4,
 .ethical div h4 {
   background-color: white;
-  color: #267dcc;
+  color: #626a72;
   font-size: 20px;
   border-radius: 15px;
   padding: 15px 20px;
@@ -331,14 +324,14 @@ svg {
   margin-bottom: 80px;
   justify-self: center;
   font-size: 12px;
-  border-bottom: 4.5px solid #d33a2c;
+  border-bottom: 4.5px solid #575150;
   text-transform: uppercase;
 }
 
 .ethical {
   display: grid;
   grid-row: 1/-1;
-  background-color: #76d0a4;
+  background-color: #acb6b1;
   justify-items: center;
 }
 
@@ -374,7 +367,7 @@ svg {
 .ethical div h2 {
   padding-top: 0;
   margin-top: -19px;
-  color: #182f23;
+  color: #535f59;
   font-size: 48px;
 }
 
@@ -385,8 +378,11 @@ svg {
   line-height: 35px;
 }
 
-.ethical div img {
+.ethical-img {
   width: 800px;
+  height: 500px;
+  background-color: rgb(141, 137, 137);
+  margin-bottom: 30px;
 }
 
 .vasilis {
@@ -398,13 +394,11 @@ svg {
 .photo-vas {
   align-self: flex-end;
   margin-right: 20px;
-}
-
-.vasilis div img {
-  border: 5px solid #d33a2c;
-  border-radius: 10px;
-  height: 286px;
-  width: 286px;
+  width: 300px;
+  height: 250px;
+  padding: 0 100px 0 100px;
+  border: 5px solid rgb(88, 85, 85);
+  border-radius: 5px;
 }
 
 .infoweek {
@@ -418,17 +412,19 @@ svg {
   letter-spacing: 2px;
   font-size: 18px;
   font-weight: 400;
-  color: #666;
+  color: #333;
+  background-color: #333;
 }
 
 .van p {
-  color: #333;
+  color: #666;
   font-size: 18px;
   line-height: 33px;
+  background-color: #666;
 }
 
 .van p a {
-  color: #006fc6;
+  color: #666;
 }
 
 .grid-part {
@@ -451,16 +447,18 @@ svg {
   text-decoration: none;
   color: #333;
   font-size: 15px;
-  border-bottom: 3px solid #d33a2c;
+  border-bottom: 3px solid #494140;
 }
 
 .grid-part > a:hover {
-  color: #d33a2c;
+  color: #b4a4a2;
 }
 
-.img-part a img {
-  border: 3px solid #d33a2c;
+.img-part a {
+  border: 3px solid #666;
   border-radius: 5px;
+  width: 120px;
+  height: 120px;
 }
 
 .column-part {
@@ -471,18 +469,18 @@ svg {
 
 .column-part h3 {
   margin: 5px 0 0 0;
-
-  /* padding: 0; */
+  background-color: #555;
 }
 
 .column-part h3,
 .column-part h3 a {
-  color: #666;
+  color: #555;
   font-size: 20px;
 }
 
 .column-part h1 {
   padding: 10px 10px 10px 0;
+  background-color: #333;
 }
 
 .column-part h1 a {
@@ -491,15 +489,12 @@ svg {
   text-decoration: none;
 }
 
-.column-part h1 a:hover {
-  color: #d33a2c;
-}
-
 .column-part p {
   margin: 0;
   line-height: 22px;
   font-size: 19px;
-  color: #333;
+  color: #666;
+  background-color: #666;
 }
 
 .time-span {
@@ -509,12 +504,12 @@ svg {
 }
 
 .column-part p a {
-  color: #006fc6;
+  color: #666;
 }
 
 .featured {
   position: relative;
-  background-color: #d33a2c;
+  background-color: #a19b9b;
 }
 
 .featured div {
@@ -540,7 +535,7 @@ svg {
 .slashing-news h1 a {
   font-size: 49px;
   text-decoration: none;
-  border-bottom: 3px solid #e58980;
+  border-bottom: 3px solid #928887;
 }
 
 .featured div p {
@@ -551,19 +546,20 @@ svg {
 .featured h4 {
   width: fit-content;
   background-color: white;
-  color: #267dcc;
+  color: #222427;
   font-size: 24px;
   border-radius: 15px;
   padding: 15px 25px;
   font-weight: 700;
 }
 
-.featured img {
+.featured .book-img {
   width: 300px;
   height: 400px;
   position: absolute;
-  left: 72%;
-  top: -15%;
+  left: 65%;
+  top: -40%;
+  background-color: rgb(141, 137, 137);
 }
 
 .grid-part2 {
@@ -589,7 +585,7 @@ svg {
   text-decoration: none;
   color: #333;
   font-size: 15px;
-  border-bottom: 5px solid #d33a2c;
+  border-bottom: 5px solid #312d2d;
   padding-bottom: 5px;
 }
 
@@ -608,16 +604,19 @@ svg {
   margin-top: 10px;
 }
 
-.grid-part2 ul {
-  list-style-image:
-    url(
-      https://d33wubrfki0l68.cloudfront.net/5242cdc0f8a0d710a02b6dcdd43ef5002bf5ae89/77199/images/bullet.svg
-  );
+.grid-part2 ul::before {
+  content: "•";
+  color: #2c2929;
+}
+
+.grid-part2 ul:hover {
+  content: "•";
+  color: #494545;
 }
 
 .grid-part2 ul a {
   font-size: 20px;
-  color: #006fc6;
+  color: #616466;
   padding: 10px 0;
 }
 
@@ -626,7 +625,7 @@ svg {
 }
 
 .smashing-background {
-  background-color: #d33a2c;
+  background-color: #807a7a;
   display: flex;
   grid-column: 2/-1;
   text-align: center;
@@ -650,9 +649,11 @@ svg {
   margin-top: 0;
 }
 
-.slashing-news img {
+.slashing-news .img-smashing {
   width: 465px;
   height: 500px;
+  background-color: rgb(141, 137, 137);
+  margin-bottom: 30px;
 }
 
 .email {
@@ -671,7 +672,7 @@ svg {
 
 .email a {
   font-size: 20px;
-  color: #267dcc;
+  color: #202122;
   text-decoration: none;
 }
 
@@ -693,12 +694,12 @@ svg {
 
 .slashing-news h6 a {
   text-decoration: none;
-  border-bottom: 3px solid #e58980;
+  border-bottom: 3px solid #b9aeae;
   color: white;
 }
 
 footer {
-  background-color: #d33a2c;
+  background-color: #9c9291;
   text-align: center;
 }
 
@@ -731,11 +732,11 @@ footer ul {
 
 .topics a::before {
   content: "•";
-  color: #811d15;
+  color: #2c2929;
 }
 
 .topics a:hover {
-  color: #390c09;
+  color: #585352;
 }
 
 .last-part {
@@ -770,6 +771,7 @@ a {
   top: 20%;
   height: 12em;
   width: 14em;
+  background-color: rgb(141, 135, 135);
 }
 
 .bird {
@@ -793,6 +795,10 @@ a {
 .latest-posts div:hover,
 .grid2-art:hover {
   transform: scale(1.1);
+}
+
+.latest-bigger {
+  background-color: rgb(141, 137, 137);
 }
 
 /* * {
