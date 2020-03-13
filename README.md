@@ -1,13 +1,13 @@
 # Smashing-Magazine
 Project by Microverse (created with Murilo Roque)
-![Smashing Magazine](/images/screenshot.png)
+![Smashing Magazine](/images/screenshot1.png)
 
 # Built with
 1. HTML
 2. CSS
 
 # Live Demo 
-[Click For Live Page](https://rawcdn.githack.com/MrSayyod/Smashing-Magazine/660ade458f153856d4fb78d67e377af80d66b8c7/index.html)
+[Click For Live Page](https://raw.githack.com/MrSayyod/Smashing-Magazine/example/index.html)
 
 # Getting Started
 To get a local copy up and running follow these simple example steps.
